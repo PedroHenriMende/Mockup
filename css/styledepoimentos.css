@@ -1,0 +1,193 @@
+/*:root{
+    --bg-botao: #036FFF
+    --bg-body: #f7f7f7
+    --texto-menor: #545454
+    --borda-input-focus: #8ac0ff
+    --borda-input-focus: #e6e6e6
+}*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;
+}
+
+header div:nth-child(1) {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+}
+
+header div:nth-child(2) {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+header div:nth-child(3) {
+    width: 20%;
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.logotipo {
+    width: 300px;
+    height: 100px;
+}
+
+.logotipo:hover {
+    transform: scale(1.1);
+}
+
+.imagens img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 9px;
+    border-radius: 8%;
+}    
+
+.imagens img:hover {
+    transform: scale(1.2);
+}
+
+a {
+    color: #524F0E; 
+}
+
+.espacador {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #C1BBBB;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacador p{
+    font-size: 20px;
+}
+
+.espacador p:hover {
+    transform: scale(1.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: ; */
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+nav a:hover{
+    transform: scale(1.3);
+}
+
+hr {
+    height: 80px;
+    width: 2px;
+    border-width: 0;
+    margin: 2;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+section div:nth-child(1) {
+    width: 70%;
+}
+
+section div:nth-child(2) {
+    display: flex;
+    /* flex-direction: row; */
+    width: 430px;
+
+}
+
+.donoempresa{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    flex-direction: column;
+    height: 504.5px;
+    background-color: #C1BBBB;
+}
+.donoempresa img{    
+    width: 280px;
+    height: 280px;
+    border-radius: 7%;
+    margin-top: 20px;
+}
+
+.donoempresa h4{
+    margin-bottom: 50px
+}
+
+.textos h2, h3{
+    margin: 2;
+}
+
+.textos p{
+    font-size: 21px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #C1BBBB;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.imagemrodape{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 290px;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #C1BBBB;
+}
+
+.rodape h4 {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div:nth-child(1) {
+    width: 73%;
+}
+footer div:nth-child(2) {
+    display: flex;
+    /* flex-direction: row; */
+    width: 27%;
+
+}
